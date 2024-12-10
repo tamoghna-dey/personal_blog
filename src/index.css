@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GeistMono";
+  src: url('../geist_mono.ttf');
+}
+body{
+  font-family: GeistMono;
+  font-size: 2vw;
+  font-weight: 600;
+  color: rgb(40, 199, 0);
+  background-color: rgb(0, 0, 0);
+}
