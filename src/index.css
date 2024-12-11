@@ -56,6 +56,10 @@ body::-webkit-scrollbar {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+#nav a{
+  text-decoration: none;
+  color: rgb(40, 199, 0);
+}
 #about_me{
   width: 50%;
   margin-top: 3vw;
@@ -92,6 +96,7 @@ body::-webkit-scrollbar {
 #blogs ol li a{
   text-decoration: none;
   transition: text-decoration 0.2s ease-in-out;
+  color: rgb(40, 199, 0);
 }
 #blogs ol li a:hover{
   text-decoration: underline;
@@ -129,6 +134,7 @@ body::-webkit-scrollbar {
 }
 #projects ol li a{
   text-decoration: underline;
+  color: rgb(40, 199, 0);
 }
 #footer{
   width: 50%;
@@ -161,4 +167,5 @@ body::-webkit-scrollbar {
 #footer #socials{
   font-size: 2vh;
   font-weight: 300;
+  color: rgb(40, 199, 0);
 }
